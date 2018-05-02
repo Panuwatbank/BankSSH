@@ -4,12 +4,12 @@ echo ""
 echo ""
 echo ""
 echo ""
-tput setaf 6 ; echo "||          ||  ||  ||------   ||||||||  ||------    " ; tput sgr0
-tput setaf 6 ; echo " ||        ||       ||      /  ||        ||      /   " ; tput sgr0
-tput setaf 6 ; echo "  ||      ||    ||  ||------   ||||||||  ||------    " ; tput sgr0
-tput setaf 6 ; echo "   ||    ||     ||  ||         ||        ||     ||   " ; tput sgr0
-tput setaf 6 ; echo "    ||  ||      ||  ||         ||        ||      ||  " ; tput sgr0
-tput setaf 6 ; echo "      ||        ||  ||         ||||||||  ||       || " ; tput sgr0
+tput setaf 6 ; echo "||          ||  ||  ||------   ||||||||  ||------     X   ll   X  \\    //" ; tput sgr0
+tput setaf 6 ; echo " ||        ||       ||      /  ||        ||      /    ||  ||  ||   \\  //" ; tput sgr0
+tput setaf 6 ; echo "  ||      ||    ||  ||------   ||||||||  ||------     ||  ||  ||    \\//" ; tput sgr0
+tput setaf 6 ; echo "   ||    ||     ||  ||         ||        ||     ||    ||  ||  ||     ||" ; tput sgr0
+tput setaf 6 ; echo "    ||  ||      ||  ||         ||        ||      ||    | //\\ |      || " ; tput sgr0
+tput setaf 6 ; echo "      ||        ||  ||         ||||||||  ||       ||    X    X       || " ; tput sgr0
 echo ""
 tput setaf 5 ; echo "    XX    XX        X  XXXX   XXXXXXXX" ; tput sgr0
 tput setaf 5 ; echo "     XX  XX        X  XX XX   X    X X" ; tput sgr0
@@ -19,7 +19,7 @@ tput setaf 5 ; echo "    XX    XX    X        XX   X X    X" ; tput sgr0
 tput setaf 5 ; echo "   XX      XX  X         XX O XXXXXXXX" ; tput sgr0
 echo ""
 tput setaf 6 ; echo "ViperX 1.0 Installer is Loading Please Wait" ; tput sgr0
-tput setaf 6 ; echo "By Penguin" ; tput sgr0
+tput setaf 6 ; echo "By ม้าอาชาคะนอง" ; tput sgr0
 sleep 4
 clear
 echo ""
@@ -28,37 +28,37 @@ echo "● ติดตั้ง e ชุด o พร็อคซี่ ปลา
 echo "● การกำหนดค่า o OpenSSH para rodar ใน พอร์ต 22 e 143"
 echo "● ติดตั้ง os โมดูล e ชุด ผู้จัดการของ nosso" ; tput sgr0
 echo ""
-tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
-tput setaf 2 ; tput bold ; echo "	Termos de Uso" ; tput sgr0
+tput setaf 3 ; tput bold ; read -n 1 -s -p "กดปุ่มใดก็ได้เข้า..." ; echo "" ; echo "" ; tput sgr0
+tput setaf 2 ; tput bold ; echo "	ข้อตกลงและเงื่อนไข ของ ใช้" ; tput sgr0
 echo ""
-echo "Ao utilizar o 'Viper X' você concorda com os seguintes termos de uso:"
+echo "Ao ที่จะใช้ o 'งูพิษ X' คุณเห็นด้วย มีเงื่อนไขการใช้งานต่อไปนี้:"
 echo ""
-echo "1. Você pode:"
-echo "a. Instalar e usar o 'ViperX' no(s) seu(s) servidor(es)."
-echo "b. Criar, gerenciar e remover um número ilimitado de usuários através desse conjunto de scripts."
+echo "1. คุณสามารถ:"
+echo "a. ติดตั้งและใช้ 'ViperX' บนเซิร์ฟเวอร์ของคุณ (s)."
+echo "b. สร้าง, จัดการ e ลบไม่ จำกัด จำนวน ของ Eur-lex.europa.eu eur-lex.europa.eu ผ่านชุดนี้."
 echo ""
-tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
-echo "2. Você não pode:"
-echo "a. Editar, modificar, compartilhar ou redistribuir (gratuitamente ou comercialmente)"
-echo "esse conjunto de scripts"
-echo "b. Modificar ou editar o conjunto de scripts para fazer você parecer o desenvolvedor dos scripts."
+tput setaf 3 ; tput bold ; read -n 1 -s -p "กดปุ่มใดก็ได้เพื่อดำเนินการต่อ..." ; echo "" ; echo "" ; tput sgr0
+echo "2. คุณ ไม่สามารถ:"
+echo "a. EDITAR, แก้ไข, หุ้น ou จัดสรรใหม่ (ฟรีหรือเชิงพาณิชย์)"
+echo "esse ชุด de สคริปต์"
+echo "b. แก้ไข ข้อความ เกี่ยวกับ สคริปต์ สำหรับบทสนทนา ของสคริปต์."
 echo ""
-echo "3. Você aceita que:"
-echo "a. O valor pago por esse conjunto de scripts inclui apenas suporte em sua instalação e configuração,"
-echo "Qualquer quebra do contrato ou mudança no script, é sujeito a perda total do suporte,"
-echo "b. O usuário desse conjunto de scripts é o único resposável por qualquer tipo de implicação"
-echo "ética ou legal causada pelo uso desse conjunto de scripts para qualquer tipo de finalidade."
+echo "3. คุณยอมรับไหม:"
+echo "a. จำนวนเงินที่จ่ายสำหรับชุดสคริปต์นี้มีเพียงการสนับสนุนเท่านั้น ในการติดตั้งและการกำหนดค่าของคุณ,"
+echo "ห้องพัก การฝ่าฝืนสัญญา หรือการเปลี่ยนแปลงในสคริปต์, อยู่ภายใต้การสูญเสียทั้งหมดของการสนับสนุน,"
+echo "ผู้ใช้ชุดสคริปต์นี้ เป็นผู้รับผิดชอบ ต่อ ผลการดำเนินงานทุกประเภท."
+echo "สาเหตุ ทางจริยธรรม หรือกฎหมาย โดยการใช้ชุดของสคริปต์สำหรับ วัตถุประสงค์ใด ๆ."
 echo ""
-tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
-echo "4. Você concorda que o desenvolvedor não se responsabilizará pelos:"
-echo "a. Problemas causados pelo uso dos scripts distribuídos sem autorização."
-echo "b. Problemas causados por conflitos entre este conjunto de scripts e scripts de outros desenvolvedores."
-echo "c. Problemas causados por edições ou modificações do código do script sem autorização."
-echo "d. Problemas do sistema causados por programas de terceiro ou modificações/experimentações do usuário."
-echo "e. Problemas causados por modificações no sistema do servidor."
-echo "f. Problemas causados pelo usuário não seguir as instruções da documentação do conjunto de scripts."
-echo "g. Problemas ocorridos durante o uso dos scripts para obter lucro comercial."
-echo "h. Problemas que possam ocorrer ao usar o conjunto de scripts em sistemas que não estão na lista de sistemas testados."
+tput setaf 3 ; tput bold ; read -n 1 -s -p "กดปุ่มใดก็ได้เพื่อดำเนินการต่อ..." ; echo "" ; echo "" ; tput sgr0
+echo "4. คุณยอมรับว่าผู้พัฒนาจะไม่รับผิดชอบต่อ:"
+echo "a. ปัญหาที่เกิดจากการใช้สคริปต์แจกจ่ายที่ไม่ได้รับอนุญาต."
+echo "b. ปัญหาที่เกิดจากความขัดแย้งระหว่างสคริปต์ชุดนี้กับสคริปต์จากนักพัฒนาซอฟต์แวร์คนอื่น ๆ."
+echo "c. ปัญหาที่เกิดจากการแก้ไขหรือปรับเปลี่ยนโค้ดสคริปต์ที่ไม่ได้รับอนุญาต(ไอ้เหี้ยไอ้สัส)."
+echo "d. ปัญหาของระบบ ที่เกิดจากโปรแกรมของ บริษัท อื่นหรือการแก้ไข / ทดลองใช้ของผู้ใช้."
+echo "e. ปัญหาที่เกิดขึ้น เกิดจากการปรับเปลี่ยนระบบเซิร์ฟเวอร์."
+echo "f. ปัญหาที่เกิดจาก ผู้ใช้ไม่ทำตาม คำแนะนำในเอกสาร ชุดสคริปต์."
+echo "g. ปัญหาที่เกิดขึ้น ในขณะที่ใช้สคริปต์เพื่อประโยชน์ทางการค้า."
+echo "h. ปัญหาที่อาจเกิดขึ้น เมื่อใช้ชุดสคริปต์ในระบบ ที่ไม่ได้อยู่ในรายการ ของระบบที่ทดสอบ."
 echo ""
 tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
 IP=$(wget -q -qO- ipv4.icanhazip.com)
@@ -71,9 +71,9 @@ fi
 if [ -f "/root/usuarios.db" ]
 then
 tput setaf 6 ; tput bold ;	echo ""
-	echo "Uma base de dados de usuários ('usuarios.db') foi encontrada!"
-	echo "Deseja mantê-la (preservando o limite de conexões simultâneas dos usuários)"
-	echo "ou criar uma nova base de dados?"
+	echo "พบฐานข้อมูลของผู้ใช้ ('users.db') แล้ว!"
+	echo "คุณต้องการที่จะเก็บไว้ (รักษาขีด จำกัด ของการเชื่อมต่อผู้ใช้พร้อมกัน)"
+	echo "หรือสร้างฐานข้อมูลใหม่?"
 	tput setaf 6 ; tput bold ;	echo ""
 	echo "[1] เก็บ รากฐาน ของ ข้อมูล ปัจจุบันดำรงตำแหน่งนี้"
 	echo "[2] สร้าง ฐาน ข้อมูล ใหม่ เย็ดเป็ดเย็ดไก่"
@@ -83,7 +83,7 @@ else
 	awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > /root/usuarios.db
 fi
 echo ""
-read -p "คุณต้องการไหม เพื่อเปิดใช้งาน a การอัด SSH (pode aumentar o consumo de RAM)? [s/n]) " -e -i n sshcompression
+read -p "คุณต้องการไหม เพื่อเปิดใช้งาน a การอัด SSH (สามารถเพิ่มการใช้ RAM ได้)? [s/n]) " -e -i n sshcompression
 echo ""
 tput setaf 7 ; tput setab 4 ; tput bold ; echo "" ; echo "Aguarde a configuração automática" ; echo "" ; tput sgr0
 sleep 3
