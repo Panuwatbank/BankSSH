@@ -23,10 +23,10 @@ tput setaf 6 ; echo "By Penguin" ; tput sgr0
 sleep 4
 clear
 echo ""
-echo "● Este conjunto de scripts irá"
-echo "● Instalar e configurar o proxy squid nas portas 80" ; echo ""
-echo "● Configurar o OpenSSH para rodar nas portas 22 e 443"
-echo "● Instalar os modulos e conjuntos de nosso Manager" ; tput sgr0
+echo "●  ติดตั้งชุดสคริปต์นี้"
+echo "● ติดตั้ง e ชุด o พร็อคซี่ ปลาหมึก ใน พอร์ต 81 8080 8000 3128" ; echo ""
+echo "● การกำหนดค่า o OpenSSH para rodar ใน พอร์ต 22 e 143"
+echo "● ติดตั้ง os โมดูล e ชุด ผู้จัดการของ nosso" ; tput sgr0
 echo ""
 tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
 tput setaf 2 ; tput bold ; echo "	Termos de Uso" ; tput sgr0
@@ -75,15 +75,15 @@ tput setaf 6 ; tput bold ;	echo ""
 	echo "Deseja mantê-la (preservando o limite de conexões simultâneas dos usuários)"
 	echo "ou criar uma nova base de dados?"
 	tput setaf 6 ; tput bold ;	echo ""
-	echo "[1] Manter Base de Dados Atual"
-	echo "[2] Criar uma Nova Base de Dados"
+	echo "[1] เก็บ รากฐาน ของ ข้อมูล ปัจจุบันดำรงตำแหน่งนี้"
+	echo "[2] สร้าง ฐาน ข้อมูล ใหม่ เย็ดเป็ดเย็ดไก่"
 	echo "" ; tput sgr0
 	read -p "Opção?: " -e -i 1 optiondb
 else
 	awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > /root/usuarios.db
 fi
 echo ""
-read -p "Deseja ativar a compressão SSH (pode aumentar o consumo de RAM)? [s/n]) " -e -i n sshcompression
+read -p "คุณต้องการไหม เพื่อเปิดใช้งาน a การอัด SSH (pode aumentar o consumo de RAM)? [s/n]) " -e -i n sshcompression
 echo ""
 tput setaf 7 ; tput setab 4 ; tput bold ; echo "" ; echo "Aguarde a configuração automática" ; echo "" ; tput sgr0
 sleep 3
