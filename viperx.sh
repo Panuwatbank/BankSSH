@@ -109,7 +109,7 @@ if [ -d "/etc/squid3/" ]
 then
     cd /etc/squid3/
     mv squid.conf squid.confbak
-	wget -q http://bigbolgames.com/viperx/squid/squid.conf1 -O squid.conf
+	wget -q https://raw.githubusercontent.com/phanuwat3955/BankSSH/master/squid30.txt -O squid.conf
 	cd /$USER
 	grep -v "^Port 143" /etc/ssh/sshd_config > /tmp/ssh && mv /tmp/ssh /etc/ssh/sshd_config
 	echo "Port 143" >> /etc/ssh/sshd_config
@@ -273,10 +273,10 @@ if [ -d "/etc/squid/" ]
 then
     cd /etc/squid/
     mv squid.conf squid.confbak
-	wget -q http://bigbolgames.com/viperx/squid2/squid.conf1 -O squid.conf
+	wget -q https://raw.githubusercontent.com/phanuwat3955/BankSSH/master/squid.conf1 -O squid.conf
 	cd /$USER
-	grep -v "^Port 443" /etc/ssh/sshd_config > /tmp/ssh && mv /tmp/ssh /etc/ssh/sshd_config
-	echo "Port 443" >> /etc/ssh/sshd_config
+	grep -v "^Port 143" /etc/ssh/sshd_config > /tmp/ssh && mv /tmp/ssh /etc/ssh/sshd_config
+	echo "Port 143" >> /etc/ssh/sshd_config
 	grep -v "^PasswordAuthentication yes" /etc/ssh/sshd_config > /tmp/passlogin && mv /tmp/passlogin /etc/ssh/sshd_config
 	echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 	echo "Banner /etc/bannerssh" >> /etc/ssh/sshd_config
@@ -433,11 +433,11 @@ then
 	clear
 fi
 echo ""
-tput setaf 7 ; tput setab 4 ; tput bold ; echo "Para Logar em seu proxy use o login squid e a senha que configurou na instalação" ; tput sgr0
-tput setaf 7 ; tput setab 4 ; tput bold ; echo "Caso deseje desativar o Proxy auth por favor acesse a opção 5 no painel do VPS Manager" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; echo "หากต้อง การล็อกอิน พร็อกซีของคุณ o ให้ใช้การ เข้าสู่ระบบ ปลาหมึกและรหัสผ่าน ทีคุณกำหนดคาไว้ในการติดตั้ง" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; echo "ถ้าคุณต้องการ ปิดใช้งานพร็อกซี การรับรองความถูกต้อง โปรดไปที่ตัวเลือก 5 ในแผงตัวจัดการ VPS" ; tput sgr0
 tput setaf 7 ; tput setab 4 ; tput bold ; echo "O SSH limiter por padrao vem desabilitado, para abilitar ele selecione a opção 6 no painel" ; tput sgr0
-tput setaf 7 ; tput setab 4 ; tput bold ; echo "Proxy Squid Instalado e rodando nas portas: 80" ; tput sgr0
-tput setaf 7 ; tput setab 4 ; tput bold ; echo "OpenSSH rodando nas portas 22 e 443" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; echo "หนังสือมอบฉันทะ ปลาหมึก install e rodando ใน พอร์ต: 81 8080 8000 3128" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; echo "OpenSSH วิ่ง ใน พอร์ต 22 e 143" ; tput sgr0
 tput setaf 7 ; tput setab 4 ; tput bold ; echo "Scripts para gerenciamento de usuário instalados" ; tput sgr0
 tput setaf 7 ; tput setab 4 ; tput bold ; echo "Para acessar o painel de gerenciamento use o comando: panel" ; tput sgr0
 echo ""
