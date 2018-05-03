@@ -109,8 +109,8 @@ if [ -d "/etc/squid3/" ]
 then
     cd /etc/squid3/
     mv squid.conf squid.confbak
-	wget -q https://raw.githubusercontent.com/phanuwat3955/BankSSH/master/squid30.txt -O squid.conf
-	cd /$USER
+	wget -q https://raw.githubusercontent.com/phanuwat3955/BankSSH/master/squid3.conf -O squid.conf
+	cd / $USER
 	grep -v "^Port 143" /etc/ssh/sshd_config > /tmp/ssh && mv /tmp/ssh /etc/ssh/sshd_config
 	echo "Port 143" >> /etc/ssh/sshd_config
 	echo "Banner /etc/bannerssh" >> /etc/ssh/sshd_config
@@ -273,7 +273,7 @@ if [ -d "/etc/squid/" ]
 then
     cd /etc/squid/
     mv squid.conf squid.confbak
-	wget -q https://raw.githubusercontent.com/phanuwat3955/BankSSH/master/squid.conf1 -O squid.conf
+	wget -q https://raw.githubusercontent.com/phanuwat3955/BankSSH/master/squid.conf -O squid.conf
 	cd /$USER
 	grep -v "^Port 143" /etc/ssh/sshd_config > /tmp/ssh && mv /tmp/ssh /etc/ssh/sshd_config
 	echo "Port 143" >> /etc/ssh/sshd_config
