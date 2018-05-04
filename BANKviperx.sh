@@ -122,34 +122,34 @@ then
 	service ssh restart
 	service squid3 restart
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Instalando Modulos Por Favor Aguarde " ; tput sgr0 ; echo ""
-    wget -q http://bigbolgames.com/viperx/squid/squidconf.sh -O /bin/squidconf
+        wget -q http://bigbolgames.com/viperx/squid/squidconf.sh -O /bin/squidconf
 	chmod +x /bin/squidconf
 	dos2unix /bin/squidconf
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Squid Auth Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Squid Auth Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/alterarsenha.sh -O /bin/alterarsenha
 	chmod +x /bin/alterarsenha
 	dos2unix /bin/alterarsenha
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Change Password Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Change Password Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/criarusuario2.sh -O /bin/criarusuario
 	chmod +x /bin/criarusuario
 	dos2unix /bin/criarusuario
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Create user Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Create user Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/expcleaner2.sh -O /bin/expcleaner
 	chmod +x /bin/expcleaner
 	dos2unix /bin/expcleaner
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Clear Expired Users Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Clear Expired Users Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/mudardata.sh -O /bin/mudardata
 	chmod +x /bin/mudardata
 	dos2unix /bin/mudardata
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Change Date Installed" ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Change Date Installed" ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/remover.sh -O /bin/remover
 	chmod +x /bin/remover
 	dos2unix /bin/remover
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Remove Users Installed" ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Remove Users Installed" ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/sshlimiter2.sh -O /bin/sshlimiter
 	chmod +x /bin/sshlimiter
 	dos2unix /bin/sshlimiter
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo SSh Limiter Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo SSh Limiter Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/alterarlimite.sh -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
 	dos2unix /bin/alterarlimite
@@ -171,10 +171,10 @@ then
 	mv speedtest.py /etc/penguin
 	chmod +x /etc/penguin/speedtest.py
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Speed Test Python Configured " ; tput sgr0 ; echo ""
-    wget -q http://bigbolgames.com/viperx/panel/usuarioteste.sh -O /bin/usuarioteste
+        wget -q http://bigbolgames.com/viperx/panel/usuarioteste.sh -O /bin/usuarioteste
 	chmod +x /bin/usuarioteste
 	dos2unix /bin/usuarioteste
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo User Temp Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo User Temp Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/panel/banner.sh -O /bin/banner
 	chmod +x /bin/banner
 	dos2unix /bin/banner
@@ -186,7 +186,7 @@ then
 	wget -q http://bigbolgames.com/viperx/panel/updatepack.sh -O /bin/updatepack
 	chmod +x /bin/updatepack
 	dos2unix /bin/updatepack
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Update Manager Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Update Manager Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/panel/firewallblock.sh -O /bin/firewallblock
 	chmod +x /bin/firewallblock
 	dos2unix /bin/firewallblock
@@ -260,7 +260,7 @@ then
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo HTOP Panel Instalado" ; tput sgr0 ; echo ""
 	panel
 	clear
-    wget -q http://bigbolgames.com/viperx/panel/viperx.sh -O /bin/viperx
+        wget -q http://bigbolgames.com/viperx/panel/viperx.sh -O /bin/viperx
 	chmod +x /bin/viperx
 	dos2unix /bin/viperx
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo ViperX Instalado " ; tput sgr0 ; echo ""
@@ -285,34 +285,34 @@ then
 	service ssh restart
 	service squid restart
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Instalando Modulos Por Favor Aguarde " ; tput sgr0 ; echo ""
-    wget -q http://bigbolgames.com/viperx/squid2/squidconf.sh -O /bin/squidconf
+        wget -q http://bigbolgames.com/viperx/squid2/squidconf.sh -O /bin/squidconf
 	chmod +x /bin/squidconf
 	dos2unix /bin/squidconf
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Squid Auth Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Squid Auth Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/alterarsenha.sh -O /bin/alterarsenha
 	chmod +x /bin/alterarsenha
 	dos2unix /bin/alterarsenha
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Change Password Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Change Password Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/criarusuario2.sh -O /bin/criarusuario
 	chmod +x /bin/criarusuario
 	dos2unix /bin/criarusuario
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Create user Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Create user Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/expcleaner2.sh -O /bin/expcleaner
 	chmod +x /bin/expcleaner
 	dos2unix /bin/expcleaner
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Clear Expired Users Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Clear Expired Users Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/mudardata.sh -O /bin/mudardata
 	chmod +x /bin/mudardata
 	dos2unix /bin/mudardata
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Change Date Installed" ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Change Date Installed" ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/remover.sh -O /bin/remover
 	chmod +x /bin/remover
 	dos2unix /bin/remover
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Remove Users Installed" ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Remove Users Installed" ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/sshlimiter2.sh -O /bin/sshlimiter
 	chmod +x /bin/sshlimiter
 	dos2unix /bin/sshlimiter
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo SSh Limiter Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo SSh Limiter Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/sh/alterarlimite.sh -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
 	dos2unix /bin/alterarlimite
@@ -334,10 +334,10 @@ then
 	mv speedtest.py /etc/penguin
 	chmod +x /etc/penguin/speedtest.py
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Speed Test Python Configured " ; tput sgr0 ; echo ""
-    wget -q http://bigbolgames.com/viperx/panel/usuarioteste.sh -O /bin/usuarioteste
+        wget -q http://bigbolgames.com/viperx/panel/usuarioteste.sh -O /bin/usuarioteste
 	chmod +x /bin/usuarioteste
 	dos2unix /bin/usuarioteste
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo User Temp Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo User Temp Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/panel/banner.sh -O /bin/banner
 	chmod +x /bin/banner
 	dos2unix /bin/banner
@@ -349,7 +349,7 @@ then
 	wget -q http://bigbolgames.com/viperx/panel/updatepack2.sh -O /bin/updatepack
 	chmod +x /bin/updatepack
 	dos2unix /bin/updatepack
-    tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Update Manager Installed " ; tput sgr0 ; echo ""
+        tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Update Manager Installed " ; tput sgr0 ; echo ""
 	wget -q http://bigbolgames.com/viperx/panel/firewallblock.sh -O /bin/firewallblock
 	chmod +x /bin/firewallblock
 	dos2unix /bin/firewallblock
