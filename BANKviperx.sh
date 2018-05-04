@@ -19,7 +19,7 @@ tput setaf 5 ; echo "    XX    XX    X        XX   X X    X" ; tput sgr0
 tput setaf 5 ; echo "   XX      XX  X         XX O XXXXXXXX" ; tput sgr0
 echo ""
 tput setaf 6 ; echo "ViperX 1.0 Installer is Loading Please Wait" ; tput sgr0
-tput setaf 6 ; echo "By ม้าอาชาคะนอง" ; tput sgr0
+tput setaf 6 ; echo "(By ม้าอาชา)" ; tput sgr0
 sleep 4
 clear
 echo ""
@@ -199,7 +199,7 @@ then
 	chmod +x /bin/limiter
 	dos2unix /bin/limiter
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Panel Limiter Installed" ; tput sgr0 ; echo ""
-	wget -q http://bigbolgames.com/viperx/panel/proxypanel.sh -O /bin/proxypanel
+	wget -q https://raw.githubusercontent.com/Panuwatbank/SshVPS/master/proxypanel.sh -O /bin/proxypanel
 	chmod +x /bin/proxypanel
 	dos2unix /bin/proxypanel
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Proxy Auth Change Installed" ; tput sgr0 ; echo ""
@@ -362,7 +362,7 @@ then
 	chmod +x /bin/limiter
 	dos2unix /bin/limiter
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Panel Limiter Installed" ; tput sgr0 ; echo ""
-	wget -q http://bigbolgames.com/viperx/panel/proxypanel2.sh -O /bin/proxypanel
+	wget -q https://raw.githubusercontent.com/Panuwatbank/SshVPS/master/proxypanel2.sh -O /bin/proxypanel
 	chmod +x /bin/proxypanel
 	dos2unix /bin/proxypanel
 	tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Modulo Proxy Auth Change Installed" ; tput sgr0 ; echo ""
